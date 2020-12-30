@@ -1,0 +1,12 @@
+{
+  "name": "modmail-bot",
+  "version": "1.0.0",
+  "description": "Modmail bot for Tape Nation",
+  "main": "Modmail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Modmail.js"
+  },
+  "author": "blacker",
+  "license": "ISC"
+}
