@@ -30,7 +30,7 @@ module.exports = class extends Command {
                     .setDescription(`${message.author} has just tickled ${member.user}`)
                     .setImage(res.url)
                     .setColor(this.client.color)
-                    .setThumbnail(this.client.avatar)
+                     
                     .setTimestamp()
                 });
         } catch (e) {

@@ -32,7 +32,7 @@ class Antilink extends Inhibitor {
                     })
                     return;
                 } else {
-                    return message.channel.send(`${emotes.error} | ${message.author} **Advertising is not allowed**\nI lack the permission to manage messages so I was unable to delete the link.`);
+                    return message.channel.send(`${emotes.error} | ${message.author} **Advertising is not allowed**\nI lack the permission to manage messages so I was unable to delete the link. Otherwise I would have. My eyes are on you...`);
                 }
             }
         }

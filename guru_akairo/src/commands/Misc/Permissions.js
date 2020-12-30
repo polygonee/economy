@@ -7,7 +7,7 @@ class PermissionsCommand extends Command {
             aliases: ['permissions', 'perms'],
             category: 'Miscellaneous',
             description: {
-                content: 'Information about what permissions Rada requires.',
+                content: 'Information about what permissions Guru requires.',
                 permissions: ['EMBED_LINKS']
             },
             clientPermissions: ['EMBED_LINKS']

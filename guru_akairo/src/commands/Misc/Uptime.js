@@ -18,7 +18,7 @@ class UptimeCommand extends Command {
             .setTitle(`${this.client.user.username} uptime`)
             .setThumbnail(this.client.avatar)
             .setColor(this.client.color)
-            .setDescription(`I have been online for\n${this.client.convertMs(this.client.uptime)}`)
+            .setDescription(`I have been online for\n${this.client.convertMs(this.client.uptime)}. Keep in mind, that I am a beta bot, still in development.`)
             .setFooter(`Requested by ${message.author.username}`)
             .setTimestamp()
         return message.util.send(embed);

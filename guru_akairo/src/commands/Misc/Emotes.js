@@ -3,7 +3,7 @@ const { Command } = require('discord-akairo');
 class EmotesCommand extends Command {
     constructor() {
         super('emotes', {
-            aliases: ['emotes'],
+            aliases: ['emotes', 'emojis'],
             category: 'Miscellaneous',
             description: {
                 content: 'Displays all emotes within the server.',

@@ -19,7 +19,7 @@ module.exports = {
 		7: '7️⃣',
 		8: '8️⃣',
 		9: '9️⃣',
-		10: '🔟'
+		10:'🔟'
 	},
 	emotes: {
         success: !production ? '<:RadaDevCheck:778555383345184809> ' : '<:RadaCheck:778555383769595914>',

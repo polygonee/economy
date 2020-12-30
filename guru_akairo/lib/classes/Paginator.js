@@ -4,9 +4,9 @@ class Paginator {
         this.msg = message;
         this.emojiList = [
             '⏪',                 // Skip to first page
-            '742375771913453628', // Back one page
+            '793676314346389505', // Back one page
             '🗑️',                 // Remove all reactions
-            '742375779656269914', // Forward one page
+            '793184978313674772', // Forward one page
             '⏩'                  // Skip to last page
         ];
         this.timeout = 300000;

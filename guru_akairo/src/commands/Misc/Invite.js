@@ -14,7 +14,7 @@ class InviteCommand extends Command {
   }
 
   async exec(message) {
-    return message.util.send('Coming soon!');
+    return message.util.send('I would like it if you could use my vanity url so I can analyse stuff. https://dsc.gg/guru');
   }
 }
 

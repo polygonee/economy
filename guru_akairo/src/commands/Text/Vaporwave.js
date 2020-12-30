@@ -6,7 +6,7 @@ module.exports = class extends Command {
             aliases: ['vaporwave'],
             category: 'Text',
             description: {
-                content: 'Ｓｅｎｄ  ｙｏｕｒ  ｔｅｘｔ  ｖａｐｏｒｗａｖｅｄ',
+                content: 'Ｓｅｎｄ  ｙｏｕｒ  ｔｅｘｔ  ｖａｐｏｒｗａｖｅｄ. Cool!',
                 permissions: []
             },
             args: [{

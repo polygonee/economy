@@ -22,7 +22,7 @@ class NpmCommand extends Command {
     async exec(message, args) {
         let pkg = args.package;
         if (!pkg) {
-            return message.util.send('Please enter the name of an npm package');
+            return message.util.send('Please enter the name of an npm package. duh?');
         }
         let query = pkg;
         let searching = message.util.send(`Searching NPMjs for \`${pkg}\`...`);

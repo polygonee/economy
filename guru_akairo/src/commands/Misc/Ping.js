@@ -17,11 +17,11 @@ class PingCommand extends Command {
         const sent = await message.util.send('Pinging...');
         const timeDiff = (sent.editedAt || sent.createdAt) - (message.editedAt || message.createdAt);
     	const embed = this.client.util.embed()
-        .setThumbnail(this.client.avatar)
     		.setTitle(`${this.client.user.username} ping`)
 	    	.setDescription([
-	            `🔂 **RTT**: ${timeDiff} ms`,
-	            `💟 **Heartbeat**: ${Math.round(this.client.ws.ping)} ms`
+	            `🔂 **Time Taken**: ${timeDiff} ms`,
+                `💟 **API Latency**: ${Math.round(this.client.ws.ping)} ms`,
+                `This doesn't really mean anything though...`
 	        ])
 	    	.setColor(this.client.color)
 	    	.setFooter(`Requested by ${message.author.username}`)

@@ -5,7 +5,7 @@ const ms = require('ms');
 module.exports = class MuteCommand extends Command {
     constructor() {
         super('mute', {
-            aliases: ['mute', 'm', 'silence'],
+            aliases: ['mute', 'm', 'silence', 'shut-up'],
             category: 'Moderation',
             description: {
                 content: 'Mute a user in the server',

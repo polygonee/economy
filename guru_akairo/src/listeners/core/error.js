@@ -17,7 +17,7 @@ class ErrorListener extends Listener {
             .setDescription(`Guild: **${message.guild.name}**\nUser: \`${message.author.tag} (${message.author.id})\`\nCommand: \`${message.content.split(' ')[0]}\`\n\n${error.stack}`)
             .setTimestamp()
         if (this.client.settings.get(this.client.id, 'debug') && production) {
-            this.client.channels.cache.get('787745780432764948').send(embed);
+            this.client.channels.cache.get('788927381141454868').send(embed);
         }
         return message.channel.send(`\`\`\`js\n${error.message}\`\`\``);
     }

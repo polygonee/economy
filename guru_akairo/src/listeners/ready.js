@@ -23,7 +23,7 @@ module.exports = class ReadyListener extends Listener {
             }
         });
         this.client.log.success(`Connected to the Discord API`);
-        this.client.log.success(`Guru has logged in and is ready to serve ${client.guilds.cache.size}`);
+        this.client.log.success(`Guru has logged in.`);
         if (process.platform !== 'linux') {
             if (!this.client.settings.get(this.client.id, 'debug')) {
                 this.client.Cli.start();

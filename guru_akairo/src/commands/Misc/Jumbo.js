@@ -4,7 +4,7 @@ const req = require('@aero/centra');
 class JumboCommand extends Command {
     constructor() {
         super('jumbo', {
-            aliases: ['jumbo', 'emote', 'e'],
+            aliases: ['jumbo', 'emote', 'e', 'largify'],
             category: 'Miscellaneous',
             description: {
                 content: 'Enlarge an emote by providing the emote or the emote ID',

@@ -7,7 +7,7 @@ module.exports = class SetPrefixCommand extends Command {
         aliases: ['setprefix'],
         category: 'Config',
         description: {
-          content: 'Change the current prefix of Rada',
+          content: 'Change the current prefix of Guru',
           permissions: ['EMBED_LINKS']
         },
         args: [{

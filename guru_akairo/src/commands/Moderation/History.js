@@ -31,7 +31,7 @@ module.exports = class HistoryCommand extends Command {
         } else {
             if (['clear', 'reset'].some(option => clear === option || member === option)) {
                 if (!message.member.permissions.has('MANAGE_MESSAGES')) {
-                    return message.responder.error('**To clear advertising history, you require the ability to manage messages**');
+                    return message.responder.error('**To clear advertising history, you require the ability to manage messages.**. *Not so fast*');
                 }
                 if (member.settings.get(member.id, 'history', 0) === 0) {
                     return message.responder.error(`**\`${member.user.tag}\` has no history to clear**`);

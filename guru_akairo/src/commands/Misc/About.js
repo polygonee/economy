@@ -7,7 +7,7 @@ class AboutCommand extends Command {
           aliases: ['about', 'info'],
           category: 'Miscellaneous',
           description: {
-            content: 'Displays information about Rada.',
+            content: 'Displays information about Guru.',
             permissions: ['EMBED_LINKS']
           },
           clientPermissions: ['EMBED_LINKS']
@@ -22,7 +22,6 @@ class AboutCommand extends Command {
         .addField('Created by', `\`${this.client.users.cache.get(this.client.ownerID[0]).tag} (${this.client.ownerID[0]})\``)
         .addField('Language', '[NodeJS](https://nodejs.org/en/) ([discord.js](https://discord.js.org/#/))')
         .addField('Framework', '[discord-akairo](https://discord-akairo.github.io/#/)')
-        .addField('What does \'Rada\' mean', 'Rada originates in Slavic languages and means "filled with care". As a feminine given name it is used in Slavic languages, mainly Russian, in the United States it is very rare.')
         .addField('Color', this.client.color)
         .setFooter(`Requested by ${message.author.username}`)
         .setTimestamp()

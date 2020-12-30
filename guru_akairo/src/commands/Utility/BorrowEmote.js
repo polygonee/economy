@@ -4,7 +4,7 @@ const req = require('@aero/centra');
 class StealEmoteCommand extends Command {
     constructor() {
         super('borrowemote', {
-           aliases: ['borrowemote', 'steal', 'borrow', 'stealemote'],
+           aliases: ['borrowemote', 'steal', 'borrow', 'stealemote', 'copy'],
            category: 'Utility',
            description: {
                content: 'Imagine stealing emotes :eyes:',

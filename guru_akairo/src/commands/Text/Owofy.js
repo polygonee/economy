@@ -6,7 +6,7 @@ module.exports = class extends Command {
             aliases: ['owofy', 'owo'],
             category: 'Text',
             description: {
-                content: 'Send youw text owofied (｡♥‿♥｡)',
+                content: 'Send your text owofied (｡♥‿♥｡)',
                 permissions: []
             },
             args: [{

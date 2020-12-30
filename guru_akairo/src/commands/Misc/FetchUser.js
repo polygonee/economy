@@ -3,7 +3,7 @@ const { Command } = require('discord-akairo');
 class FetchUserCommand extends Command {
     constructor() {
         super('fetchuser', {
-            aliases: ['fetchuser', 'fu'],
+            aliases: ['fetchuser'],
             category: 'Miscellaneous',
             description: {
               content: 'Fetch any user and show information about them.',

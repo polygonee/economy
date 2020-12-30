@@ -27,14 +27,14 @@ module.exports = class GroupHugCommand extends Command {
                 .json()
             let embed = this.client.util.embed()
                 .setTitle('Group Hug!')
-                .setDescription(`**${message.author}** has just given **${formatted}** a hug!`)
+                .setDescription(`**${message.author}** has just given **${formatted}** a hug! I wish I could be hugged...`)
                 .setColor(this.client.color)
                 .setImage(res.url)
                 .setThumbnail(this.client.avatar)
                 .setTimestamp()
             return message.util.send(embed)
         } catch (e) {
-            return message.util.send(`**${message.author}** has just given **${formatted}** a hug!`);
+            return message.util.send(`**${message.author}** has just given **${formatted}** a hug! But at what price... An error ?!`);
         }
     }
 }

@@ -6,7 +6,7 @@ class ReverseCommand extends Command {
            aliases: ['reverse', 'rev'],
            category: 'Miscellaneous',
            description: {
-             content: 'Reverse a string',
+             content: 'Reverse a string.',
              permissions: []
            },
            args: [{

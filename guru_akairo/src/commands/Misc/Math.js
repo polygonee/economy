@@ -3,11 +3,11 @@ const math = require('mathjs');
 
 class MathCommand extends Command {
     constructor() {
-        super('math', {
-            aliases: ['math', 'calculate'],
+        super('add', {
+            aliases: ['add', 'calculate'],
             category: 'Miscellaneous',
             description: {
-              content: 'Who needs a calculator when you can just use Rada ',
+              content: 'Who needs a calculator when you can just use Guru ',
               permissions: []
             }
         });
