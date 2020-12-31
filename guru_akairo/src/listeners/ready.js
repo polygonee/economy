@@ -15,19 +15,9 @@ module.exports = class ReadyListener extends Listener {
         this.client.log.success(`Loaded ${this.client.commandHandler.modules.size} commands`);
         this.client.log.success(`Loaded ${readdirSync(process.cwd() + '/lib/extensions').length - 1} extensions`);
         this.client.log.success(`Loaded ${readdirSync(process.cwd() + '/src/models').length - 1} models`);
-    	this.client.presence.set({
-            status: 'online',
-            activity: {
-                name: 'Life | g.help | dsc.gg/guru',
-                type: 5
-            }
-        });
-        this.client.log.success(`Connected to the Discord API`);
+    	this.client.user.setActivity('Life | g.help | dsc.gg/guru', { type: 'COMPETING' })
+        this.client.log.success(`Established connection to the Discord API`);
         this.client.log.success(`Guru has logged in.`);
-        if (process.platform !== 'linux') {
-            if (!this.client.settings.get(this.client.id, 'debug')) {
-                this.client.Cli.start();
-            }
-        }
+        this.client.Cli.start();
     }
 }

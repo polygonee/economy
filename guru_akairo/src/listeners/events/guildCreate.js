@@ -19,6 +19,6 @@ module.exports = class GuildCreateListener extends Listener {
             .addField('Owner', `${guild.owner.user.tag}\n${guild.owner.id}`, true)
             .addField('Total guilds', `${this.client.guilds.cache.size}`)
             .setTimestamp()
-        this.client.channels.cache.get('789934400930316339').send(embed);
+        this.client.channels.cache.get('788927382378512433').send(embed);
     }
 };

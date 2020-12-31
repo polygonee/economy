@@ -4,7 +4,7 @@ const Reactor = require('../structures/Reactor');
 const Paginator = require('../classes/Paginator');
 
 Structures.extend('Message', Message => {
-	class RadaMessage extends Message {
+	class GuruMessage extends Message {
 		constructor(...args) {
 			super(...args);
 			this.responder = new Responder(this);
@@ -19,5 +19,5 @@ Structures.extend('Message', Message => {
 			return this.pagination.paginate(array);
 		}
 	}
-	return RadaMessage;
+	return GuruMessage;
 });

@@ -22,17 +22,17 @@ module.exports = {
 		10:'🔟'
 	},
 	emotes: {
-        success: !production ? '<:RadaDevCheck:778555383345184809> ' : '<:RadaCheck:778555383769595914>',
-        error: !production ? '<:RadaDevX:778555383815077888>' : '<:RadaX:778555383777853440>',
-        info: !production ? '<:RadaDevInfo:778555383409016845>' : '<:RadaInfo:778555383807606804>',
-        np: !production ? '<:RadaDevNP:788367827425034251>' : '<:RadaNP:788367827459506186>',
+        success: !production ? '<a:yesyes:793721186219458560>' : '<a:yesyes:793721186219458560>',
+        error: !production ? '<a:nonono:793721053884448798>' : '<a:nonono:793721053884448798>',
+        info: !production ? '<:info:793721770372235265>' : '<:info:793721770372235265>',
+        np: !production ? '<a:noproblem:793722026761125899>' : '<a:noproblem:793722026761125899>',
 	},
 	reactions: {
-        success: !production ? 'RadaDevCheck:778555383345184809' : 'RadaCheck:778555383769595914',
-        error: !production ? 'RadaDevX:778555383815077888' : 'RadaX:778555383777853440',
-        info: !production ? 'RadaDevInfo:778555383409016845' : 'RadaInfo:778555383807606804'
+        success: !production ? 'yesyes:793721186219458560' : 'yesyes:793721186219458560',
+        error: !production ? 'nonono:793721053884448798' : 'nonono:793721053884448798',
+        info: !production ? 'info:793721770372235265' : 'info:793721770372235265'
 	},
-	clientColor: !production ? '#55FFCD' : '#f05151',
+	clientColor: !production ? 'GOLD' : 'PURPLE',
 	logo: !production ? 'https://i.br4d.vip/kkCkZlLP.png' : 'https://i.br4d.vip/Lm9zTuY5.png',
 	christmasLogo: !production ? 'https://i.br4d.vip/aZhqll4N.png' : 'https://i.br4d.vip/6DyNZVZn.png',
 	id: !production ? '729314273016283167' : '729013058860744814',
@@ -122,17 +122,17 @@ module.exports = {
 		 */
 	},
 	badges: {
-		'DISCORD_EMPLOYEE': '<:discord_employee:787834727646101544>',
-		'PARTNERED_SERVER_OWNER': '<:partner:787833472534052865>',
-		'HYPESQUAD_EVENTS': '<:hypesquad_events:787835021108707358>',
-		'BUGHUNTER_LEVEL_1': '<:bughunterlvl1:787834135833870346>',
-		'HOUSE_BRAVERY': '<:bravery:787833549235552266> ',
-		'HOUSE_BRILLIANCE': '<:brilliance:787833837748355112> ',
-		'HOUSE_BALANCE': '<:balance:787833580973195284>',
-		'EARLY_SUPPORTER': '<:early_supporter:787834347821989898>',
-		'BUGHUNTER_LEVEL_2': '<:bughunterlvl2:787834627083075625>',
-		'EARLY_VERIFIED_DEVELOPER': '<:verified:787833433807650826>',
-		'NITRO': '<:nitro:787836086838624266>'
+		'DISCORD_EMPLOYEE': '<:discord_staff:793725213204152351>',
+		'PARTNERED_SERVER_OWNER': '<:partner:793725520914415616>',
+		'HYPESQUAD_EVENTS': '<:hype_events:793725740772229150>',
+		'BUGHUNTER_LEVEL_1': '<:bug_1:793725997924614186>',
+		'HOUSE_BRAVERY': '<:brave:793726166527115315>',
+		'HOUSE_BRILLIANCE': '<:brilliance:793726328523849729>',
+		'HOUSE_BALANCE': '<:balance:793726530081521675>',
+		'EARLY_SUPPORTER': '<:early:793726685044277320>',
+		'BUGHUNTER_LEVEL_2': '<:bug_2:793727845133975592>',
+		'EARLY_VERIFIED_DEVELOPER': '<:botdev:793728253541613629>',
+		'NITRO': '<:nitro:793728420060201020>'
 	},
 	OwOfy: [
 		'(*^ω^)',

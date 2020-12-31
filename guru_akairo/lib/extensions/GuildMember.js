@@ -3,7 +3,7 @@ const model = require('../../src/models/memberSchema');
 const { MongooseProvider } = require('discord-akairo');
 
 Structures.extend('GuildMember', Member => {
-	class RadaMember extends Member {
+	class GuruMember extends Member {
 		constructor(...args) {
 			super(...args);
             this.settings = new MongooseProvider(model);
@@ -31,5 +31,5 @@ Structures.extend('GuildMember', Member => {
 			}
 		}
 	}
-	return RadaMember;
+	return GuruMember;
 });

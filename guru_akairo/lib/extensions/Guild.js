@@ -4,7 +4,7 @@ const { MongooseProvider } = require('discord-akairo');
 const { production, prefix, devPrefix } = require('../../src/config');
 
 Structures.extend('Guild', Guild => {
-	class RadaGuild extends Guild {
+	class GuruGuild extends Guild {
 		constructor(...args) {
 			super(...args);
             this.settings = new MongooseProvider(model);
@@ -17,5 +17,5 @@ Structures.extend('Guild', Guild => {
 			this.muteRole = this.settings.get(this.id, 'muterole', null);
 		}
 	}
-	return RadaGuild;
+	return GuruGuild;
 });

@@ -4,7 +4,7 @@ const { MongooseProvider } = require('discord-akairo');
 const { badges } = require('../constants');
 
 Structures.extend('User', User => {
-	class RadaUser extends User {
+	class GuruUser extends User {
 		constructor(...args) {
 			super(...args);
             this.settings = new MongooseProvider(model);
@@ -25,5 +25,5 @@ Structures.extend('User', User => {
 			}
 		}
 	}
-	return RadaUser;
+	return GuruUser;
 });
